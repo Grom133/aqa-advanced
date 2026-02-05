@@ -1,7 +1,4 @@
-const book = {};
-book.title = "Harry Potter";
-book.author = "J.K.Rowling";
-book.year = 1997;
+const book = { title: "Harry Potter", author: "J.K.Rowling", year:1997 };
 
 const { title, author } = book;
 
