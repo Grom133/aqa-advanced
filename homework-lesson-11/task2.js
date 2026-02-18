@@ -25,4 +25,4 @@ const raceResult = Promise.race([fetchTodo(), fetchUser()]);
 raceResult
     .then(result => {
         console.log("race result:", result);
-    })
+    });

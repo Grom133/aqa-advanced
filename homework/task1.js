@@ -9,5 +9,5 @@ if (averageGrade < 60) {
 } else if (averageGrade >= 81 && averageGrade <= 90) {
     console.log("Äóæå äîáğå");
 } else if (averageGrade >= 91 && averageGrade <= 100) {
-    console.log("Â³äì³ííî")
+    console.log("Â³äì³ííî");
 }
