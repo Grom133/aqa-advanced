@@ -19,7 +19,7 @@ class Book {
 
     set title(value) {
         if (typeof value !== "string" || value.trim() === "") {
-            throw new Error("Title must not be empty")
+            throw new Error("Title must not be empty");
         }
         this._title = value;
     }
